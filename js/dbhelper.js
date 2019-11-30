@@ -1,3 +1,5 @@
+let isHosted = (window.location.hostname === "rakeshmithun.github.io") ? 'true' : '';
+
 /**
  * Common database helper functions.
  */
@@ -8,7 +10,7 @@ class DBHelper {
      * Change this to restaurants.json file location on your server.
      */
     static get DATABASE_URL() {
-        const port = 3000 // Change this to your server port
+        const port = 801 // Change this to your server port
 
         if (isHosted) {
             console.log(window.location.hostname);
@@ -183,4 +185,3 @@ class DBHelper {
         } */
 
 }
-var isHosted = (window.location.hostname === "rakeshmithun.github.io") ? 'true' : '';
