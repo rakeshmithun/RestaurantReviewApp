@@ -23,7 +23,7 @@ In order to run the application you have some options:
 
 1. Open it [here](https://rakeshmithun.github.io/RestaurantReviewApp/)
 
-2. Run it localy
+2. Run it locally
 * Download as .zip file or clone this project:
 
     ```
