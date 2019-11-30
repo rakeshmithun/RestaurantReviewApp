@@ -183,4 +183,4 @@ class DBHelper {
         } */
 
 }
-var isHosted = (window.location.hostname === "soumya44.github.io") ? 'true' : '';
+var isHosted = (window.location.hostname === "rakeshmithun.github.io") ? 'true' : '';
