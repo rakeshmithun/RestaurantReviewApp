@@ -69,6 +69,8 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
  * Initialize leaflet map, called from HTML.
  */
 window.initMap = () => {
+    var directionsService = new google.maps.DirectionsService();
+    directionsDisplay = new google.maps.DirectionsRenderer();
     let loc = {
         lat: 40.722216,
         lng: -73.987501
