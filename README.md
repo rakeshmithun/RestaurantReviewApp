@@ -1,5 +1,4 @@
-# RetaurantReviewApp
- RMIT project 5 - Restaurant review app
+# Udacity - RMIT project 5 - Restaurant review app
 ===============================
 
 # Table of Contents
